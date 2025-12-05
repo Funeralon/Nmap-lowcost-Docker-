@@ -65,9 +65,9 @@ mon-scanner-1 exited with code 0
 
 ## Détails de configuration
 
-    - Target : Le scanner cible le nom d'hôte ma-victime. Docker résout automatiquement ce nom DNS vers l'IP du conteneur Nginx grâce au réseau créé par Compose.
+- Target : Le scanner cible le nom d'hôte ma-victime. Docker résout automatiquement ce nom DNS vers l'IP du conteneur Nginx grâce au réseau créé par Compose.
 
-    - Sécurité : Le conteneur Python s'exécute avec un utilisateur standard (monuser) défini dans le Dockerfile, et non en root.
+- Sécurité : Le conteneur Python s'exécute avec un utilisateur standard (monuser) défini dans le Dockerfile, et non en root.
 
 # Auteur
 Mathieu Dumas

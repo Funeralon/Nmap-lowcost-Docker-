@@ -36,6 +36,7 @@ Ce projet met en œuvre les concepts suivants :
     ```bash
     docker compose up --build
     ```
+>(Il faut avoir Docker Desktop de lancer pour que )
 
 ## Vérification du fonctionnement
 

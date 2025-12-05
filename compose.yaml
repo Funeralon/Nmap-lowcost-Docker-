@@ -1,0 +1,18 @@
+services:
+  mon-scanner:
+    build: .  
+    environment:
+      - TARGET_HOST=ma-victime # On dit au scanner d'attaquer le service "ma-victime"
+    secrets:
+      - mon_super_secret # On injecte le secret dans ce service
+    depends_on:
+      - ma-victime # Le scanner attend que la victime soit lancée
+
+  ma-victime:
+    image: nginx:alpine # Une image web très légère
+    ports:
+      - "8080:80" # On expose son port 80 
+
+secrets:
+  mon_super_secret:
+    file: ./mon_secret.txt 

@@ -56,7 +56,8 @@ mon-scanner-1  | Port 80 est OUVERT !
 mon-scanner-1  | --------------------------------------------------
 mon-scanner-1  | Fin du scan containerisé.
 mon-scanner-1 exited with code 0
-```text
+
+```
 
 - Si vous voyez "Secret chargé", la gestion des secrets fonctionne.
 

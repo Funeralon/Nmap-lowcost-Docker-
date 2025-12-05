@@ -37,7 +37,7 @@ Ce projet met en œuvre les concepts suivants :
     docker compose up --build
     ```
 
-## 🔍 Vérification du fonctionnement
+## Vérification du fonctionnement
 
 Une fois la commande lancée, observez les logs dans le terminal. Le scénario suivant va se dérouler :
 
@@ -48,7 +48,7 @@ Une fois la commande lancée, observez les logs dans le terminal. Le scénario s
 
 ```text
 mon-scanner-1  | --------------------------------------------------
-mon-scanner-1  | ✅ Secret chargé avec succès ! Clé utilisée : AZERTY1234
+mon-scanner-1  | Secret chargé avec succès ! Clé utilisée : AZERTY1234
 mon-scanner-1  | --------------------------------------------------
 mon-scanner-1  | SCANNER DOCKERISÉ - Cible : ma-victime
 mon-scanner-1  | --------------------------------------------------

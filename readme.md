@@ -8,7 +8,7 @@ Ce projet démontre la conteneurisation d'une application Python (Scanner de por
 Ce projet met en œuvre les concepts suivants :
 1. **Création d'image Docker** : Utilisation d'un `Dockerfile` optimisé (basé sur python:slim) avec utilisateur non-root.
 2. **Orchestration Multi-services** : Utilisation de `compose.yaml` pour orchestrer le scanner et une cible (serveur Nginx).
-3. **Gestion des Secrets** : Injection sécurisée d'une clé API via les *Docker Secrets*, sans passer par les variables d'environnement en clair.
+3. **Gestion des Secrets** : Injection sécurisée d'une clé API via les *Docker Secrets*.
 
 ## Structure du Projet
 
@@ -49,7 +49,7 @@ Une fois la commande lancée, observez les logs dans le terminal. Le scénario s
 
 ```text
 mon-scanner-1  | --------------------------------------------------
-mon-scanner-1  | Secret chargé avec succès ! Clé utilisée : AZERTY1234
+mon-scanner-1  | Secret chargé avec succès ! Clé utilisée : TEST1234@#
 mon-scanner-1  | --------------------------------------------------
 mon-scanner-1  | SCANNER DOCKERISÉ - Cible : ma-victime
 mon-scanner-1  | --------------------------------------------------
